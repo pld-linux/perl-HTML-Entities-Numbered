@@ -6,7 +6,7 @@
 %define	pdir	HTML
 %define	pnam	Entities-Numbered
 Summary:	HTML::Entities::Numbered - Conversion of numbered HTML entities
-#Summary(pl.UTF-8):	
+Summary(pl.UTF-8):	HTML::Entities::Numbered - konwersja numerycznych elementów HTML-a
 Name:		perl-HTML-Entities-Numbered
 Version:	0.04
 Release:	1
@@ -26,8 +26,10 @@ HTML::Entities::Numbered is a content conversion filter for named HTML
 entities (symbols, mathmetical symbols, Greek letters, Latin letters,
 etc.).
 
-# %description -l pl.UTF-8
-# TODO
+%description -l pl.UTF-8
+HTML::Entities::Numbered to filtr do konwersji treści dla nazwanych
+elementów HTML-a (symboli, symboli matematycznych, liter greckich,
+liter łacińskich itp.).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
